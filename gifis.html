@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giphy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body style="background-color: black">
+    <section id="secs" class="section">
+        <div class="box">
+            <nav class="navbar is-transparent">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://develanton.github.io/Portafolio/">
+                        <div id="linking">
+                            <a href="https://develanton.github.io/Portafolio/">develanton</a>
+                        </div>
+                    </a>
+                    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample" id="nav-burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="navbarExampleTransparentExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" href="https://develanton.github.io/Portafolio/portfolio.html">
+                                Portfolio
+                            </a>
+                            <div class="navbar-dropdown is-boxed">
+                                    <a class="navbar-item" href="https://safe-dusk-39707.herokuapp.com/">
+                                        Friend Finder
+                                    </a>
+                                    <a class="navbar-item is-active" href=" https://develanton.github.io/subway-schedule/">
+                                        Firebase
+                                    </a> 
+                                <a class="navbar-item" href="gifis.html">
+                                    API & AJAX
+                                </a>
+                                <a class="navbar-item" href="https://develanton.github.io/Portafolio/trivia.html">
+                                    Triva Game
+                                </a>
+                                <a class="navbar-item" href="https://develanton.github.io/crystal-game/">
+                                    Crystal Game
+                                </a>
+                                <a class="navbar-item" href="https://develanton.github.io/Word-Guess-Game/">
+                                    Hangman
+                                </a>
+                                <a class="navbar-item" href="https://develanton.github.io/Bootstrap-Portfolio">
+                                    Bootstrap
+                                </a>
+
+                                <a class="navbar-item" href="https://develanton.github.io/Bootstrap-Portfolio">
+                                    Responsive CSS
+                                </a>
+                                <a class="navbar-item is-active" href="https://develanton.github.io/index.html">
+                                    HTML & CSS
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="field is-grouped">
+                                <p class="control">
+                                    <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000"
+                                        target="_blank" href="https://github.com/develanton">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>
+                                            Github
+                                        </span>
+                                    </a>
+                                    <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000"
+                                        target="_blank" href="#">
+                                        <span class="icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                        <span>
+                                            Contact
+                                        </span>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="secs" class="section" style="background-color: black;">
+        <div class="box">
+            <div class="field has-addons">
+                <div class="control is-expanded">
+                    <form>
+                        <input id="search" class="input is-primary" type="text" placeholder="Search Gifs">
+                </div>
+                <div class="control">
+                    <button type="summit" class="button  is-success" id="searchButt" value="">
+                        <strong> Add Topic</strong>
+                        </a>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="secs" class="section">
+        <div class="box" style="padding:5px;">
+            <div id="butts"></div>
+        </div>
+    </section>
+    <section id="secs" class="section">
+        <div class="box">
+            <div id=gifDisplay></div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div id="linking">
+            <a href="index.html">develanton</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+<script type="text/javascript"> 
+
+
+document.addEventListener('DOMContentLoaded', function () {
+
+        // Get all "navbar-burger" elements
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+    
+            // Add a click event on each of them
+            $navbarBurgers.forEach(function ($el) {
+                $el.addEventListener('click', function () {
+    
+                    // Get the target from the "data-target" attribute
+                    var target = $el.dataset.target;
+                    var $target = document.getElementById(target);
+    
+                    // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+                    $el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+    
+                });
+            });
+        }
+    
+    });
+</script>
+   
+</body>
+
+</html>

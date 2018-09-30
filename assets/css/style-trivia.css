@@ -1,0 +1,38 @@
+html{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+
+#reference{
+    margin-top: 23%;
+}
+#no-border{
+    border-color:white; 
+}
+
+
+#front-box{
+    height: 617px;
+    margin-top: -20px;
+}  
+#trivia{
+    margin-top: 0%;
+}
+#referenceb{
+    margin-top: 10%;
+}
+#linking{
+    font-family: 'Libre Barcode 39 Text';
+    /* margin-left: 35%;
+     */margin-top: -40px;
+    font-size: 50px;
+    text-align: center;
+}
+a{
+    color: grey
+}
+a:hover{
+    color:white;
+}

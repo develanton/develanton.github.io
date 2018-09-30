@@ -1,0 +1,65 @@
+#linking{
+    font-family: 'Libre Barcode 39 Text';
+    margin-top: 0px;
+    font-size: 50px;
+    margin-right: 10px;
+    text-align: center;
+}
+a{
+    color: grey
+}
+a:hover{
+    color:white;
+}
+#butts{
+  margin-left: 10px; 
+  margin-top: 2px;
+  margin-bottom: 2px;     
+}
+.section{
+padding: 20px;
+}
+footer{
+    margin-top:10px;
+}
+html{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+
+#reference{
+    margin-top: 10%;
+}
+#no-border{
+    border-color:white; 
+}
+#top-sec{
+    padding-bottom: 0px; 
+}
+
+#trivia{
+    margin-top: 0%;
+}
+#referenceb{
+   margin: 0px;
+ 
+}
+
+a{
+    color: grey
+}
+a:hover{
+    color:white;
+}
+#contact-sec{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+#menu-sec{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
